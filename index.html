@@ -2,6 +2,9 @@
 <html>
 	<head>
 		<title>Puspalio pavadinimas</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/layout.css">
+		<meta charset="UTF-8">
 	</head>
 	<body>
 	<header>
@@ -14,6 +17,7 @@
 	<aside>
 		<h1>Tekstas</h1>
 	</aside>
+	<main>
 		<h1>Tai yra antraste</h1>
 		<p>Tai yra paragrafas</p>
 		<div>O cia yra turnio skyrius</div>
@@ -26,14 +30,43 @@
 				<li class="elementas raudonas" id="unikalus_elementas">Ketvirtas</li>
 				<li class="elementas raudonas">Penktas</li>
 			</ul>
-	</div>
+	</div><!--
 	<img src="img/images2.jpg" alt="1">
 	<img src="img/18-CONTACTUS-HEADER.jpg" alt="2">
 	<img src="img/images.jpg" alt="3">
 	<picture>
 		<source media="(min-width: 600px)" srcset="img/download.jpg">
 		<img src="img/homepage-hero-2019-q1-edited-tennis-bg.jpg" alt="Kitas pav">
-	</picture>
+	</picture>-->
+	<h1>Pirma forma versija a</h1>
+	<form action="niekoa">
+		<input type="text" placeholder="Vartuotojos vardas"><br>
+		<input type="password" placeholder="Slaptazodis"><br>
+		<button>Prisijungti</button>
+	</form>
+	<h1>Pirma forma versija b</h1>
+	<form action="niekob">
+		<input type="text" placeholder="Jusu vardas"><br>
+		<input type="text" placeholder="Jusu el. pasto adresas"><br>
+		<input type="text" placeholder="Zinutes tema"><br>
+		<textarea name="zinute" id="zinute" cols="30" rows="4">Zinute
+		</textarea><br>
+		<button>Submit</button>
+	</form>
+	<h1>Antra forma</h1>
+	<form action="nieko2">
+		<label for="vardas">Vardas</label>
+		<input type="text" id="vardas"><br>
+		<label for="email">Jusu el. pasto adresas</label>
+		<input type="text" id="email"><br>
+		<label for="zinutestema">Zinutes tema</label>
+		<input type="text" id="zinutestema"><br>
+		<textarea name="zinute" id="zinute2" cols="30" rows="4">
+Zinute
+		</textarea><br>
+		<button>Submit</button>
+	</form>
+	</main>
 	<footer>
 		<h2>Footeris</h2>
 	</footer>
