@@ -16,6 +16,67 @@ footer{
     grid-area: footer;
 }
 
+.menu-itemjs {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#defaultOpen {
+    background-color: red;
+}
+
+.tab {
+    background-color: #5f5f5f;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tab:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
+
+.tabai>div{
+    float: left;
+    padding: 10px;
+}
+.sheet {
+    display: none;
+}
+#sheet1 {
+    display: block
+}
+
 #grid {
     display: grid;
     grid-template-areas: 'header header'

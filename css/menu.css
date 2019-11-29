@@ -1,0 +1,22 @@
+nav {
+    display:inline;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+@keyframes example {
+    from{background-color:black;}
+    to{background-color: yellow;}
+}
+
+#elementas {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+}

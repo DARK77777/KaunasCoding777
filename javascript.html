@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/layout.css">
+
+</head>
+<body>
+<header>
+    <button class="tablink"><a class="menu-itemjs" href="index.html">Home</a></button>
+    <button class="tablink"><a class="menu-itemjs" href="http://google.lt">Google</a></button>
+    <button class="tablink"><a class="menu-itemjs" href="table.html">Table</a></button>
+    <button class="tablink" id="defaultOpen"><a class="menu-itemjs" href="javascript.html">Javascript</a></button>
+</header>
+<br>
+<h1>Javascript!</h1>
+<br>
+<p>---------------- Output 1 /5</p>
+
+
+<!--1 javascript-->
+<p id="demo"></p>
+
+
+
+<script>
+    /* 1 javascript*/
+    let carName = 'Volvo'
+    document.getElementById('demo').innerHTML = carName;
+</script>
+<p>---------------- Output 2 /5</p>
+
+<!--2 javascript-->
+<script>
+    document.write(5+6);
+</script>
+<h1>Mano antras h1</h1>
+<p>Mano antras paragrafas</p>
+<script>
+    document.write(5+6);
+</script>
+
+<p>---------------- Output 3 /5</p>
+
+<h1>Mano trecias h1</h1>
+<p>Mano trecias paragrafas</p>
+
+<button type="button" onclick="document.write(5+6)">Try it</button>
+
+<p>---------------- Output 4 /5</p>
+<h1>Mano ketvirtas h1</h1>
+<p>Mano ketvirtas paragrafas</p>
+<p>langas su skaicium 11</p>
+<script>
+    window.alert(5+6);
+</script>
+
+<p>---------------- Output 5 /5</p>
+<h1>Mano penktas h1</h1>
+<p>Mano penktas paragrafas</p>
+<p>Console logas(matosi developer tool's consolei - skaicius 11)</p>
+<script>
+    console.log(5+6);
+</script>
+
+
+<p>---------------- Uzduotis</p>
+
+<p>Atsakymas: </p>
+<h2 id="uzduotis1"></h2>
+
+<script>
+
+       var x = 2000;
+       var x1 = 11;
+       var x2 = 9;
+        atsakymas = (x%10 + x1%10 + x2%10);
+        document.getElementById("uzduotis1").innerHTML = atsakymas;
+</script>
+
+<p>---------------- Uzduotis 2</p>
+
+<p>Atsakymas: </p>
+<h2 id="uzduotis2"></h2>
+<h2 id="uzduotis22"></h2>
+
+<button onclick="myFunction2()">test</button>
+
+<script>
+    function myFunction2() {
+        let n1 = 3;
+        let n2 = 4;
+
+        function myFunction(n) {
+
+            return ((n - 2) * 180)
+        }
+        document.getElementById("uzduotis2").innerHTML = myFunction(n1);
+        document.getElementById("uzduotis22").innerHTML = myFunction(n2);
+    }
+
+</script>
+
+<p>---------------- Uzduotis 3</p>
+<img  id="lamp"  src="img/light-off.jpg" alt="on" width="100px" height="100px" onclick="Lampfunction3()">
+<button onclick="Lampfunction1()">Off</button>
+<button onclick="Lampfunction2()">On</button>
+<button onclick="Lampfunction3()">Switch On/Off</button>
+<script>
+    function Lampfunction1(){
+        document.getElementById("lamp").src="img/light-off.jpg";
+        }
+    function Lampfunction2(){
+        document.getElementById("lamp").src="img/light-on.jpg";
+    }
+    let lemposBusena = false;
+    function Lampfunction3() {
+       if(lemposBusena){
+           document.getElementById("lamp").src="img/light-off.jpg";
+       }
+       else {
+           document.getElementById("lamp").src="img/light-on.jpg";
+       }
+        lemposBusena = !lemposBusena;
+    }
+</script>
+
+
+</body>
+</html>
