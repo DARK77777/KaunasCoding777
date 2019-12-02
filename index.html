@@ -7,15 +7,14 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/menu.css">
 
+
 	</head>
 	<body>
 	<div id="grid">
 	<header>
 		<nav id="elementas">
 			<a class="menu-item" href="index.html">Home</a>
-			<a class="menu-item" href="http://google.com">Google</a>
-			<a class="menu-item" href="table.html">Table</a>
-			<a class="menu-item" href="javascript.html">Javascript</a>
+
 		</nav>
 	</header>
 	<aside>
@@ -62,7 +61,7 @@
 		<h1>Tai yra antraste</h1>
 		<p>Tai yra paragrafas</p>
 		<div>O cia yra turnio skyrius</div>
-		
+		<div class="hr"></div>
 	<div title="Esu div bloko uzuomina" class="aplankas">
 			<ul>
 				<li class="elementas raudonas">Pirmas</li>
@@ -72,6 +71,7 @@
 				<li class="elementas raudonas">Penktas</li>
 			</ul>
 	</div>
+		<div class="hr"></div>
 	<img src="img/images2.jpg" alt="1" width="100px" height="100px">
 	<img src="img/18-CONTACTUS-HEADER.jpg" alt="2" width="100px" height="100px">
 	<img src="img/images.jpg" alt="3" width="100px" height="100px">
@@ -79,12 +79,14 @@
 		<source media="(min-width: 600px)" srcset="img/download.jpg">
 		<img src="img/homepage-hero-2019-q1-edited-tennis-bg.jpg" alt="Kitas pav">
 	</picture>
+		<div class="hr"></div>
 	<h1>Pirma forma versija a</h1>
 	<form action="niekoa">
 		<input type="text" placeholder="Vartuotojos vardas"><br>
 		<input type="password" placeholder="Slaptazodis"><br>
 		<button>Prisijungti</button>
 	</form>
+		<div class="hr"></div>
 	<h1>Pirma forma versija b</h1>
 	<form action="niekob">
 		<input type="text" placeholder="Jusu vardas"><br>
@@ -108,6 +110,16 @@ Zinute
 		<button>Submit</button>
 	</form>
 
+		<div class="hr"></div>
+		<br>
+		<p1>If you click on me, I will disappear.</p1><br>
+		<p1>Click me away!</p1><br>
+		<p1>Click me too!</p1><br>
+		<br>
+		<button class="reset">Reset</button>
+
+		<div class="hr"></div>
+
 
 	</main>
 
@@ -115,6 +127,24 @@ Zinute
 		<h2>Footeris</h2>
 	</footer>
 	</div>
+
 	<script src="js/tabjs.js"></script>
+	<script src="js/loader.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+        $(document).ready(function(){
+            $("p1").click(function(){
+                $(this).hide();
+            });
+            $(".reset").click(function(){
+                $("p1").show();
+            });
+        });
+
+
+
+
+
+	</script>
 	</body>
 </html>

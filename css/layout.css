@@ -1,10 +1,12 @@
 header{
     background-color: red;
     grid-area: header;
+    border-bottom: 2px solid black;
 }
 
 aside {
-    background-color: blue;
+    background-color: silver;
+    border-right: 2px solid black;
     grid-area: aside;
 }
 main {
@@ -12,8 +14,13 @@ main {
     grid-area: main;
 }
 footer{
-    background-color: darkcyan;
+    background-color: silver;
+    border-top: 2px solid black;
     grid-area: footer;
+}
+
+.hr {
+    border: 1px dashed black;
 }
 
 .menu-itemjs {

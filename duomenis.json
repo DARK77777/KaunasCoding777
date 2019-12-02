@@ -1,0 +1,14 @@
+[
+  {
+  "pavadinimas" : "Home",
+  "adresas" : "Misko-23 gatve"
+  },
+  {
+    "pavadinimas": "Portfolio",
+    "adresas": "index.html"
+  },
+  {
+    "pavadinimas": "Javascript",
+    "adresas": "javascript.html"
+  }
+]

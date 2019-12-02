@@ -1,0 +1,16 @@
+[
+  {
+    "vardas" : "Tomas",
+    "pavarde" : "Tomauskas",
+    "kursas" : "4",
+    "kurmokosi": "KTU",
+    "pazymiuMasyvas": "7,7,8"
+  },
+  {
+    "vardas" : "Alex",
+    "pavarde" : "T",
+    "kursas" : "3",
+    "kurmokosi": "KCS",
+    "pazymiuMasyvas": "9,9,9"
+  }
+]
