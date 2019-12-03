@@ -12,114 +12,14 @@
 	<body>
 	<div id="grid">
 	<header>
-		<nav id="elementas">
+		<nav id="elementas1">
 			<a class="menu-item" href="index.html">Home</a>
-
 		</nav>
 	</header>
 	<aside>
 		<h1>Tekstas</h1>
 	</aside>
 	<main >
-		<button class="tab" onclick="openPage('Home')" id="defaultOpen">Home</button>
-		<button class="tab" onclick="openPage('News')">News</button>
-		<button class="tab" onclick="openPage('Contact')">Contact</button>
-		<button class="tab" onclick="openPage('About')">About</button>
-
-		<div id="Home" class="tabcontent">
-			<h3>Home</h3>
-			<p>Homepage</p>
-		</div>
-
-		<div id="News" class="tabcontent">
-			<h3>News</h3>
-			<p>This day aweasome</p>
-		</div>
-
-		<div id="Contact" class="tabcontent">
-			<h3>Contact</h3>
-			<p>123</p>
-		</div>
-
-		<div id="About" class="tabcontent">
-			<h3>About</h3>
-			<p>123</p>
-		</div>
-
-		<div class="tabai">
-			<div class="tabas" data-sheet="sheet1">tabas1</div>
-			<div class="tabas" data-sheet="sheet2">tabas2</div>
-			<div class="tabas" data-sheet="sheet3">tabas3</div>
-		</div>
-		<div class="sheetai">
-			<div class="sheet" id="sheet1">sheet1</div>
-			<div class="sheet" id="sheet2">sheet2</div>
-			<div class="sheet" id="sheet3">sheet3</div>
-		</div>
-
-		<br><br>
-		<h1>Tai yra antraste</h1>
-		<p>Tai yra paragrafas</p>
-		<div>O cia yra turnio skyrius</div>
-		<div class="hr"></div>
-	<div title="Esu div bloko uzuomina" class="aplankas">
-			<ul>
-				<li class="elementas raudonas">Pirmas</li>
-				<li class="elementas melynas">Antras</li>
-				<li class="elementas raudonas">Trecias</li>
-				<li class="elementas raudonas" id="unikalus_elementas">Ketvirtas</li>
-				<li class="elementas raudonas">Penktas</li>
-			</ul>
-	</div>
-		<div class="hr"></div>
-	<img src="img/images2.jpg" alt="1" width="100px" height="100px">
-	<img src="img/18-CONTACTUS-HEADER.jpg" alt="2" width="100px" height="100px">
-	<img src="img/images.jpg" alt="3" width="100px" height="100px">
-	<picture>
-		<source media="(min-width: 600px)" srcset="img/download.jpg">
-		<img src="img/homepage-hero-2019-q1-edited-tennis-bg.jpg" alt="Kitas pav">
-	</picture>
-		<div class="hr"></div>
-	<h1>Pirma forma versija a</h1>
-	<form action="niekoa">
-		<input type="text" placeholder="Vartuotojos vardas"><br>
-		<input type="password" placeholder="Slaptazodis"><br>
-		<button>Prisijungti</button>
-	</form>
-		<div class="hr"></div>
-	<h1>Pirma forma versija b</h1>
-	<form action="niekob">
-		<input type="text" placeholder="Jusu vardas"><br>
-		<input type="text" placeholder="Jusu el. pasto adresas"><br>
-		<input type="text" placeholder="Zinutes tema"><br>
-		<textarea name="zinute" id="zinute" cols="30" rows="4">Zinute
-		</textarea><br>
-		<button>Submit</button>
-	</form>
-	<h1>Antra forma</h1>
-	<form action="nieko2">
-		<label for="vardas">Vardas</label>
-		<input type="text" id="vardas"><br>
-		<label for="email">Jusu el. pasto adresas</label>
-		<input type="text" id="email"><br>
-		<label for="zinutestema">Zinutes tema</label>
-		<input type="text" id="zinutestema"><br>
-		<textarea name="zinute" id="zinute2" cols="30" rows="4">
-Zinute
-		</textarea><br>
-		<button>Submit</button>
-	</form>
-
-		<div class="hr"></div>
-		<br>
-		<p1>If you click on me, I will disappear.</p1><br>
-		<p1>Click me away!</p1><br>
-		<p1>Click me too!</p1><br>
-		<br>
-		<button class="reset">Reset</button>
-
-		<div class="hr"></div>
-
 
 	</main>
 
@@ -127,10 +27,10 @@ Zinute
 		<h2>Footeris</h2>
 	</footer>
 	</div>
-
-	<script src="js/tabjs.js"></script>
-	<script src="js/loader.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/loader.js"></script>
+	<script src="js/tabjs.js"></script>
+
 	<script>
         $(document).ready(function(){
             $("p1").click(function(){
@@ -140,11 +40,6 @@ Zinute
                 $("p1").show();
             });
         });
-
-
-
-
-
 	</script>
 	</body>
 </html>

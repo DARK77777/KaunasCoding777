@@ -5,7 +5,7 @@ function load(text) {
         let meniuItem = meniu[i];
         meniuString += '<a class="menu-item"  href="' + meniuItem.adresas + '">' + meniuItem.pavadinimas + '</a>';
     }
-    document.getElementById('elementas').innerHTML = meniuString;
+    document.getElementById('elementas1').innerHTML = meniuString;
 }
 
 
@@ -26,3 +26,15 @@ function loadJSON(callback) {
 }
 
 loadJSON(load);
+
+$(function(){
+    $('.menu-item').click(function (e) {
+        e.preventDefault();
+
+        let elementas = $(this);
+        let adresas = elementas.attr('href');
+        $('main').load(adresas);
+    });
+});
+
+    $('main').load(home.html);

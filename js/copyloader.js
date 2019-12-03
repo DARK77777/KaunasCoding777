@@ -8,8 +8,6 @@ function load(text) {
     document.getElementById('isvestiCia').innerHTML = meniuString;
 }
 
-
-
 function loadJSON(callback) {
 
     var xobj = new XMLHttpRequest();
